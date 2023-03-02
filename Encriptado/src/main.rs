@@ -1,92 +1,111 @@
-use std::{fs::*, io};
+
+use std::{fs::*};
 use std::os::windows::fs::FileExt;
-use std::mem;
 use sha256::*;
+use std::time::*;
+use std::io::*;
 fn main() {
-    let archivo_bytes= read("archivo3.encriptado");
+    //Lectura del archivo
+    let mut archivo_nombre=String::new();
+    println!("Hola usuario introduce el archivo que deseas codificar");
+    stdin().read_line(&mut archivo_nombre ).expect("Error durante la lectura de la contraseña");
+    archivo_nombre.pop();
+    archivo_nombre.pop();
+    let b= archivo_nombre.as_str();
+    let archivo_bytes= read(b);
     match archivo_bytes {
-        Err(pq)=>{
-            println!("error al cargar el archivo {}", pq);
-        }
-        Ok(archivo)=>{
-            let mut indice_de_bytes:u64=0;
-            let  archivo_desencriptado= match File::create("resultado.txt") {
+        Ok(a)=>{
+            
+            let mut contrasena_usuario= String::new(); 
+            let mut indice= 0;
+            let mut  numero_aleatorio:u8;
+            let mut nuevo_archivo_nombre=String::from("Crzipfes_");
+            nuevo_archivo_nombre.push_str(b);
+
+            let  archivo_encriptado= match File::create(nuevo_archivo_nombre) {
                 Err(pq)=> panic!("Error al escribir el archivo debido a {}", pq ),
-                Ok(nuevoarchivo)=> nuevoarchivo
+                Ok(archivo)=> archivo
             };
-            let mut archivo_arreglado:Vec<u8>= Vec::new();
-            let mut contrasena_usuario= String::new();
-            println!("Hola usuario introduce tu contasena");
-            match io::stdin().read_line(&mut contrasena_usuario){
-                Ok(_todo_bien)=>{
 
-                }
-                Err(_error)=>{
-                    panic!("Hubo un error al leer tu contrasena ):");
-                }
-            }
+            println!("Introduce la contraseña de tu archivo");
+           stdin().read_line(&mut contrasena_usuario).expect("Error durante la lectura de la contraseña");
+           contrasena_usuario.pop();
+           contrasena_usuario.pop();
 
-            for i in 0..archivo.len()/2 {
-                unsafe{
-                    let indice=i*2;
-                    let arreglo:[u8; 2]= [archivo[indice+1], archivo[indice]];
-                    let mut nuevo_dato= mem::transmute::<[u8;2], u16>(arreglo);
-                    print!("{}", nuevo_dato);
-                    let contrasena_numero= numeros_aleaatorios(&mut contrasena_usuario);
-                    match  contrasena_numero {
-                        1=>{
-                            nuevo_dato-=27;
-                        }
-                        2=>{
-                            nuevo_dato/=3;
-                        }
-                        3=>{
-                            nuevo_dato-=41;
-                        }
-                        4=>{
-                            nuevo_dato/=6;
-                        }
-                        5=>{
-                            nuevo_dato/=2;
-                            nuevo_dato-=1;
-                        }
-                        6=>{
-                            nuevo_dato/=3;
-                            nuevo_dato-=7;
-                        }
-                        7=>{
-                            nuevo_dato/=2;
-                            nuevo_dato-=4;
-                        }
-                        8=>{
-                            nuevo_dato-=7;
-                            nuevo_dato/=3;
-                        }
-                        9=>{
-                            nuevo_dato-=5;
-                            nuevo_dato/=2;
-                        }
-                        0=>{
-                            nuevo_dato-=9;
-                            nuevo_dato/=3;
-                        }
-                        _default=>{
-    
-                        }
+            //Ciclo de encriptado
+            let tiempo= Instant::now();
+            for i in 0..a.len() {
+                //Seleccion de un numero aleatorio
+                numero_aleatorio=numeros_aleaatorios(&mut contrasena_usuario);
+                let mut transformar:u16= a[i] as u16;
+
+                //Seleccionar y ejecutar una transformación
+
+                match numero_aleatorio  {
+                    1=>{
+                        transformar+=27;
                     }
-                    let guardar= mem::transmute::<u16, [u8;2]>(nuevo_dato);
-                    archivo_arreglado.push(guardar[0]);
-                }
-            }
-            for i in archivo_arreglado {
-                let buffer= [i];
-                archivo_desencriptado.seek_write(&buffer, indice_de_bytes).expect("Error durante l escritura del nuevo archivo {}");
-                indice_de_bytes+=1;
-            }
+                    2=>{
+                        transformar*=3;
+                    }
+                    3=>{
+                        transformar+=41;
+                    }
+                    4=>{
+                        transformar*=6;
+                    }
+                    5=>{
+                        transformar+=1;
+                        transformar*=2;
+                    }
+                    6=>{
+                        transformar+=7;
+                        transformar*=3;
+                    }
+                    7=>{
+                        transformar+=4;
+                        transformar*=2;
+                    }
+                    8=>{
+                        transformar*=3;
+                        transformar+=7;
+                    }
+                    9=>{
+                        transformar*=2;
+                        transformar+=5;
+                    }
+                    0=>{
+                        transformar*=3;
+                        transformar+=9;
+                    }
+                    _default=>{
 
+                    }
+                }
+                
+                //Escritura del nuevo dato en el archivo
+
+                let escribir=transformar.to_be_bytes();
+                match archivo_encriptado.seek_write(&escribir,indice){
+                    Ok(_a)=>{
+
+                    }
+                    Err(pq)=>{
+                        print!("Error durante la escritura de archivos debdio a{}", pq);
+                    }
+                }
+                indice+=2;
+            }
+            println!("{}", tiempo.elapsed().as_secs());
+            
+        }
+        Err(_a)=>{
+            print!("Error al cargar el archivo");
         }
     }
 }
+
+ //
 
 fn numeros_aleaatorios(contraesena: &mut String) -> u8{
     
@@ -99,3 +118,5 @@ fn numeros_aleaatorios(contraesena: &mut String) -> u8{
     retorno=retorno%10;
     return retorno;
 }
+
+//
