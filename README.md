@@ -8,7 +8,7 @@ Este repositorio es una clara muestra de ello. En el presente trabajo se maneja 
 
 Es importante leer los requisitos mínimos y recomendados del sistema, ya que de lo contrarío, podría presentar errores en la instalación o en la ejecución del programa.
 ```
-- Sistema Operativo Windows 10 (x64)
+- Sistema Operativo Windows 10,11 (x64)
 - RAM: 4+ gigabytes (GB)
 - Espacio en disco duro: 
         1. 0.0877 GB (Algoritmos de encriptado)
@@ -22,8 +22,19 @@ Es importante leer los requisitos mínimos y recomendados del sistema, ya que de
 
 Estas instrucciones te ayudarán a obtener la copia del repositorio y para su correcta instalación.
 
-1. 
-2.
+1. Descargar este repositorio por el método de clonar `Git (HTTPS)` o descargar como `.ZIP` para después extraerlo en la ubicación deseada.
+
+En caso de tener instalado Visual Studio, saltar los siguientes pasos:
+
+        - Descargar el instalador del programa [Visual Studio Community 2022](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
+        
+        - Abrir el instalador, ir al apartado de Componentes individuales y buscar/seleccionar los siguientes archivos: 
+        -
+        -
+        -
+        -
+
+2. 
 3.
 4.
 5.
@@ -31,6 +42,8 @@ Estas instrucciones te ayudarán a obtener la copia del repositorio y para su co
 7.
 8.
 9.
+
+### ¿Cómo ejecutarlo?
 
 
 ### Ejemplos del Algoritmo de Encriptado de un archivo:
@@ -85,7 +98,7 @@ Desencriptado exitoso tiempo de desencriptado: * segundos
 ```
 Aparece el archivo desencriptado, la manera de diferenciarlos es por medio de la etiqueta Crzipfes_ , ya que el nuevo archivo regresa a su nombre original.
 
-## ¿Cómo ejecutarlo?
+
 
 
 ```
