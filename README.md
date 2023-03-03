@@ -32,8 +32,8 @@ Estas instrucciones te ayudarán a obtener la copia del repositorio y para su co
 9.
 
 
-
 ### Ejemplos del Algoritmo de Encriptado de un archivo:
+Consola:
 ```rust
 C:\Algoritmos-encriptacion\Encriptado>cargo b
    Compiling codificado_1 v0.1.0 (C:\Algoritmos-encriptacion\Encriptado)
@@ -42,6 +42,7 @@ C:\Algoritmos-encriptacion\Encriptado>cargo b
 C:\Algoritmos-encriptacion\Encriptado>cargo run
         Finished dev [unoptimized + debuginfo] target(s) in *s
              Running `target\debug\codificado_1.exe`
+             
 Hola usuario introduce el archivo que deseas codificar:
 ```
 Se coloca manualmente el nombre del archivo con su respectiva extensión
