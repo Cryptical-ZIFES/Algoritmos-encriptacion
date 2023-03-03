@@ -8,9 +8,17 @@ Este repositorio es una clara muestra de ello. En el presente trabajo se maneja 
 *What things you need to install the software and how to install them
 
 ```
-- Give examples
+- Sistema Operativo Windows 10 (x64)
+- RAM: 4+ gigabytes (GB)
+- Espacio en disco duro: 
+    1. 0.0877 GB (Algoritmos de encriptado)
+    2. 1 GB (Visual Studio Code 2022)
+    3. 0.00953 GB (Instalación Rust)
+    4. 2.38 GB (Windows 10 SDK)
+    5. 5 GB (C++ build tools)
+    
+    Total: 8.4677 GB sin utilizar mínimo
 ```
-
 ### Instalación:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
