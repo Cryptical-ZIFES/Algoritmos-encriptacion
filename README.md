@@ -34,11 +34,42 @@ Estas instrucciones te ayudarán a obtener la copia del repositorio y para su co
 
 
 ### Ejemplos del Algoritmo de Encriptado de un archivo:
-```cmd
+```rust
 C:\Algoritmos-encriptacion\Encriptado>cargo b
    Compiling codificado_1 v0.1.0 (C:\Algoritmos-encriptacion\Encriptado)
-    Finished dev [unoptimized + debuginfo] target(s) in 1.76s
+    Finished dev [unoptimized + debuginfo] target(s) in *s
+    
+C:\Algoritmos-encriptacion\Encriptado>cargo run
+        Finished dev [unoptimized + debuginfo] target(s) in *s
+             Running `target\debug\codificado_1.exe`
+Hola usuario introduce el archivo que deseas codificar:
 ```
+Se coloca manualmente el nombre del archivo con su respectiva extensión
+NOTA: El archivo tiene que estar adentro de la carpeta de Encriptado.
+
+```rust
+Codificación exitosa tiempo de codificación: * segundos
+```
+
+### Ejemplos del Algoritmo de Desencriptado de un archivo:
+
+```rust
+C:\Algoritmos-encriptacion\Desencriptado>cargo b
+   Compiling codificado_1 v0.1.0 (C:\Algoritmos-encriptacion\Desencriptado)
+    Finished dev [unoptimized + debuginfo] target(s) in *s
+    
+C:\Algoritmos-encriptacion\Desencriptado>cargo run
+        Finished dev [unoptimized + debuginfo] target(s) in *s
+             Running `target\debug\codificado_1.exe`
+Hola usuario introduce el archivo que deseas codificar:
+```
+Se coloca manualmente el nombre del archivo con su respectiva extensión
+NOTA: El archivo tiene que estar adentro de la carpeta de Encriptado.
+
+```rust
+Codificación exitosa tiempo de codificación: * segundos
+```
+
 
 ## ¿Cómo ejecutarlo?
 
