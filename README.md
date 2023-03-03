@@ -34,7 +34,7 @@ Estas instrucciones te ayudarán a obtener la copia del repositorio y para su co
 
 
 ### Ejemplos del Algoritmo de Encriptado de un archivo:
-Consola:
+Consola CMD o Windows PowerShell:
 ```rust
 C:\Algoritmos-encriptacion\Encriptado>cargo b
    Compiling codificado_1 v0.1.0 (C:\Algoritmos-encriptacion\Encriptado)
@@ -50,11 +50,11 @@ Se coloca manualmente el nombre del archivo con su respectiva extensión.
 
 NOTA: El archivo tiene que estar adentro de la carpeta de Encriptado.
 ```rust
-Introduce la contraseña de tu archivo:
+Introduce la contrasena de tu archivo:
 ```
 Se coloca manualmente la contraseña para encriptar y más tarde desencriptar.
 
-NOTA: Importante guardar esta contraseña, ya que en caso de olvidarla no se podrá recuperar y desencriptar el archivo :( .
+NOTA: Es fundamental guardar esta contraseña, ya que en caso de olvidarla no se podrá recuperar y desencriptar el archivo :( .
 
 ```rust
 Codificación exitosa tiempo de codificación: * segundos
@@ -62,22 +62,26 @@ Codificación exitosa tiempo de codificación: * segundos
 Aparece el archivo encriptado, la manera de diferenciarlos es por medio de la etiqueta `Crzipfes_` al principio del nombre del archivo.
 
 ### Ejemplos del Algoritmo de Desencriptado de un archivo:
-
+Consola CMD o Windows PowerShell:
 ```rust
-C:\Algoritmos-encriptacion\Desencriptado>cargo b
-   Compiling codificado_1 v0.1.0 (C:\Algoritmos-encriptacion\Desencriptado)
-    Finished dev [unoptimized + debuginfo] target(s) in *s
-    
-C:\Algoritmos-encriptacion\Desencriptado>cargo run
-        Finished dev [unoptimized + debuginfo] target(s) in *s
-             Running `target\debug\codificado_1.exe`
-Hola usuario introduce el archivo que deseas codificar:
+C:\Algoritmos-encriptacion\Desencriptado> cargo b
+    Finished dev [unoptimized + debuginfo] target(s) in * s
+
+C:\Algoritmos-encriptacion\Desencriptado> cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in * s
+     Running `target\debug\decodificado.exe`
+     
+Hola usuario que archivo quieres desencriptar:
 ```
-Se coloca manualmente el nombre del archivo con su respectiva extensión
-NOTA: El archivo tiene que estar adentro de la carpeta de Encriptado.
+Se coloca manualmente el nombre del archivo con su respectiva extensión.
 
+NOTA: El archivo tiene que estar adentro de la carpeta de Desencriptado.
 ```rust
-Codificación exitosa tiempo de codificación: * segundos
+Introduce tu contasena:
+```
+Se coloca manualmente la contraseña para desencriptar.
+```rust
+Desencriptado exitoso tiempo de desencriptado: * segundos
 ```
 
 
