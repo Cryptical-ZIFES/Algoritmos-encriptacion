@@ -34,9 +34,9 @@ Estas instrucciones te ayudarán a obtener la copia del repositorio y para su co
 
 
 ### Ejemplos del Algoritmo de Encriptado de un archivo:
-```rust
-cargo b
-   Compiling codificado_1 v0.1.0 (C:\xampp\htdocs\Algoritmos-encriptacion\Encriptado)
+```cmd
+C:\Algoritmos-encriptacion\Encriptado>cargo b
+   Compiling codificado_1 v0.1.0 (C:\Algoritmos-encriptacion\Encriptado)
     Finished dev [unoptimized + debuginfo] target(s) in 1.76s
 ```
 
