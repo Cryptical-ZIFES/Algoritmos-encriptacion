@@ -40,10 +40,10 @@ fn main() {
                 Ok(nuevoarchivo)=> nuevoarchivo
             };
 
-            //Se lee la contraseña para desencriptar el arhicvo  
+            //Se lee la contraseña para desencriptar el archivo  
 
             let mut contrasena_usuario= String::new();         
-            println!("Introduce tu contasena");
+            println!("Introduce tu contrasena");
             match io::stdin().read_line(&mut contrasena_usuario){
                 Ok(_todo_bien)=>{
 
@@ -113,7 +113,7 @@ fn main() {
                     indice_de_bytes+=1;
                 }
             }
-            println!("Desencriptado exitoso tiempo de desencriptado: {} segundos", tiempo.elapsed().as_secs());
+            println!("Desencriptado exitoso tiempo de desencriptado: {} segundos", tiempo.elapsed().as_nanos());
         }
     }
 }
