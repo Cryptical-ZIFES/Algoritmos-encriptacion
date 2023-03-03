@@ -45,13 +45,13 @@ C:\Algoritmos-encriptacion\Encriptado>cargo run
              
 Hola usuario introduce el archivo que deseas codificar:
 ```
-Se coloca manualmente el nombre del archivo con su respectiva extensión
-NOTA: El archivo tiene que estar adentro de la carpeta de Encriptado.
+Se coloca manualmente el nombre del archivo con su respectiva extensión.
 
+NOTA: El archivo tiene que estar adentro de la carpeta de Encriptado.
 ```rust
 Codificación exitosa tiempo de codificación: * segundos
 ```
-
+Aparece el archivo encriptado, la manera de diferenciarlos es por medio de la etiqueta `Crzipfes_` al principio del nombre del archivo.
 ### Ejemplos del Algoritmo de Desencriptado de un archivo:
 
 ```rust
