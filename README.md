@@ -52,7 +52,8 @@ NOTA: El archivo tiene que estar adentro de la carpeta de Encriptado.
 Introduce la contraseña de tu archivo:
 ```
 Se coloca manualmente la contraseña para encriptar y más tarde desencriptar.
-NOTA: Importante guardar esta contraseña, ya que en caso de olvidarla no se podrá recuperar.
+
+NOTA: Importante guardar esta contraseña, ya que en caso de olvidarla no se podrá recuperar y desencriptar el archivo :( .
 
 ```rust
 Codificación exitosa tiempo de codificación: * segundos
