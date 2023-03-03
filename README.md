@@ -83,7 +83,7 @@ Se coloca manualmente la contraseña para desencriptar.
 ```rust
 Desencriptado exitoso tiempo de desencriptado: * segundos
 ```
-
+Aparece el archivo desencriptado, la manera de diferenciarlos es por medio de la etiqueta Crzipfes_ , ya que el nuevo archivo regresa a su nombre original.
 
 ## ¿Cómo ejecutarlo?
 
