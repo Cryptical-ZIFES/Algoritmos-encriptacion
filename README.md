@@ -35,7 +35,7 @@ Estas instrucciones te ayudarán a obtener la copia del repositorio y para su co
 ### Ejemplos del Algoritmo de Encriptado de un archivo:
 Consola:
 ```rust
-C:\Algoritmos-encriptacion\Encriptado>`cargo b`
+C:\Algoritmos-encriptacion\Encriptado>cargo b
    Compiling codificado_1 v0.1.0 (C:\Algoritmos-encriptacion\Encriptado)
     Finished dev [unoptimized + debuginfo] target(s) in *s
     
@@ -49,9 +49,16 @@ Se coloca manualmente el nombre del archivo con su respectiva extensión.
 
 NOTA: El archivo tiene que estar adentro de la carpeta de Encriptado.
 ```rust
+Introduce la contraseña de tu archivo:
+```
+Se coloca manualmente la contraseña para encriptar y más tarde desencriptar.
+NOTA: Importante guardar esta contraseña, ya que en caso de olvidarla no se podrá recuperar.
+
+```rust
 Codificación exitosa tiempo de codificación: * segundos
 ```
 Aparece el archivo encriptado, la manera de diferenciarlos es por medio de la etiqueta `Crzipfes_` al principio del nombre del archivo.
+
 ### Ejemplos del Algoritmo de Desencriptado de un archivo:
 
 ```rust
