@@ -11,13 +11,11 @@ Es importante leer los requisitos mínimos y recomendados del sistema, ya que de
 - Sistema Operativo Windows 10 (x64)
 - RAM: 4+ gigabytes (GB)
 - Espacio en disco duro: 
-
         1. 0.0877 GB (Algoritmos de encriptado)
         2. 1 GB (Visual Studio Code 2022)
         3. 0.00953 GB (Instalación Rust)
         4. 2.38 GB (Windows 10 SDK)
         5. 5 GB (C++ build tools)
-    
         Total: 8.4677 GB sin utilizar mínimo
 ```
 ### Instalación:
