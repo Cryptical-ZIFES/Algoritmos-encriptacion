@@ -6,39 +6,39 @@ Este repositorio es una clara muestra de ello. En el presente trabajo se maneja 
 ## Requisitos del sistema:
 
 Es importante leer los requisitos mínimos y recomendados del sistema, ya que de lo contrarío, podría presentar errores en la instalación o en la ejecución del programa.
-
 ```
 - Sistema Operativo Windows 10 (x64)
 - RAM: 4+ gigabytes (GB)
 - Espacio en disco duro: 
         1. 0.0877 GB (Algoritmos de encriptado)
         2. 1 GB (Visual Studio Code 2022)
-        3. 0.00953 GB (Instalación Rust)
+        3. 0.00953 GB (Instalador de Rust) + 0.2/0.3 GB (Rust)
         4. 2.38 GB (Windows 10 SDK)
         5. 5 GB (C++ build tools)
-        Total: 8.4677 GB sin utilizar mínimo
+        Total: 8.7677 GB sin utilizar mínimo
 ```
-### Instalación:
+## Instalación:
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Estas instrucciones te ayudarán a obtener la copia del repositorio y para su correcta instalación.
 
-### Ejemplos
+1. 
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
 
+### Ejemplos del Algoritmo de Encriptado de un archivo:
+```rust
+cargo b
+   Compiling codificado_1 v0.1.0 (C:\xampp\htdocs\Algoritmos-encriptacion\Encriptado)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.76s
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## ¿Cómo ejecutarlo?
 
