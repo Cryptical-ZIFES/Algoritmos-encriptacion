@@ -10,7 +10,7 @@ Es importante leer los requisitos mínimos completos y recomendados del sistema,
 
 Requisitos:
 ```
-- Sistema Operativo Windows 10 o 11 (x64)
+- Sistema Operativos: Windows 10 o Windows 11 (x64)
 - RAM: 4GB+ (gigabytes)
 - Espacio libre en el disco duro: Minimo 10 GB
 ```
@@ -22,9 +22,9 @@ Estas instrucciones te ayudarán a obtener la copia del repositorio para su corr
 
 En caso de tener instalado Visual Studio, saltar los siguientes pasos:
 
-   A) Descargar el instalador del programa [Visual Studio Community](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false).
+   - Descargar el instalador del programa [Visual Studio Community](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false).
         
-   B) Abrir el instalador, en Cargas de trabajo, localizar y seleccionar el apartado de `Desarrollo para el escritorio con C++`, después ir a Componentes individuales, buscar y seleccionar el archivo `Windows # SDK` dependiendo del sistema operativo de la computadora. Ej. `Windows 10 SDK` `Windows 11 SDK`. 
+   - Abrir el instalador, en Cargas de trabajo, localizar y seleccionar el apartado de `Desarrollo para el escritorio con C++`, después ir a Componentes individuales, buscar y seleccionar el archivo `Windows # SDK` dependiendo del sistema operativo de la computadora. Ej. `Windows 10 SDK` `Windows 11 SDK`. 
    
 Aproximadamente pesa la instalación 9.89 GB, aunque se puede personalizar dependiendo el uso específico de cada usuario, para así liberar peso.
 
@@ -40,8 +40,8 @@ Aproximadamente pesa la instalación 9.89 GB, aunque se puede personalizar depen
 - Acceder por medio de la terminal a la carpeta de encriptado o desencriptado dependiendo de su uso.
 - En la carpeta seleccionada, ejecutar el comando `cargo b`.
 - Ejecutar el comando `cargo run`.
-- Ingresar el archivo con su extensión.
-- Ingresar la nueva contraseña para encriptar/contraseña para desencriptar.
+-Ingresar el archivo con su extensión.
+-Ingresar la nueva contraseña para encriptar/contraseña para desencriptar.
 - Esperar a que se genere el archivo.
 - Volver a ejecutar el programa o cerrar la terminal. 
 
