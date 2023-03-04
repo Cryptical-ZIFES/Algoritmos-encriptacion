@@ -8,7 +8,7 @@ Este repositorio es una clara muestra de ello. En el presente trabajo se maneja 
 
 Es importante leer los requisitos mínimos completos y recomendados del sistema, ya que de lo contrarío, podría presentar errores en la instalación o en la ejecución del programa.
 
-Requisitos mínimos:
+Requisitos:
 ```
 - Sistema Operativo Windows 10 o 11 (x64)
 - RAM: 4GB+ (gigabytes)
@@ -36,6 +36,8 @@ En caso de tener instalado Visual Studio, saltar los siguientes pasos:
 
 ### ¿Cómo ejecutarlo?
 
+- Localizar el repositorio o carpeta descomprimida por medio de comandos en la terminal.
+- 
 
 ### Ejemplos del Algoritmo de Encriptado de un archivo:
 Consola CMD o Windows PowerShell:
@@ -95,7 +97,7 @@ Aparece el archivo desencriptado, la manera de diferenciarlos es por medio de la
 
 Rust
 
-## License
+## Si requiere más información sobre el repositorio, puede consultar el siguiente enlace que lo llevara a la investigación realizada para elaborar este producto. 
 
 
 
