@@ -91,15 +91,15 @@ Desencriptado exitoso tiempo de desencriptado: * segundos
 ```
 Aparece el archivo desencriptado, la manera de diferenciarlos es por medio de la etiqueta Crzipfes_ , ya que el nuevo archivo regresa a su nombre original.
 
-## Built With
+### Built With
 
 Rust
 
-## Si requiere más información sobre el repositorio, puede consultar el siguiente enlace que lo llevara a la investigación realizada para elaborar este producto. 
+### Si requiere más información sobre el repositorio, puede consultar el siguiente enlace que lo llevara a la investigación realizada para elaborar este producto. 
 
 
 
-## Acknowledgments
+### Acknowledgments
 
 * Hat tip to anyone whose code was used
 * Inspiration
