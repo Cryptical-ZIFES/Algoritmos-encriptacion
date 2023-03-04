@@ -95,14 +95,13 @@ Se coloca manualmente la contraseña para desencriptar.
 ```rust
 Desencriptado exitoso tiempo de desencriptado: * segundos
 ```
-Aparece el archivo desencriptado, la manera de diferenciarlos es por medio de la etiqueta Crzipfes_ , ya que el nuevo archivo regresa a su nombre original.
+Aparece el archivo desencriptado, la manera de diferenciarlos es por medio de la etiqueta Crzipfes_, ya que el nuevo archivo regresa a su nombre original.
 
-### Built With
+#### ¿Por qué se utilizó el lenguaje de programación Rust?
 
-Rust
+Al ser un lenguaje compilado, permite una mayor eficiencia en cuestiones de memoria, así como el tiempo empleado para realizar cada operación. Además, la librería estándar que proporciona posee una gran cantidad de funciones de utilidad para el algoritmo y su proceso de testeo, manipulación de archivos, cambios entre tipos de variables, así como marcas de tiempo. 
 
-### Si requiere más información sobre el repositorio, puede consultar el siguiente enlace que lo llevara a la investigación realizada para elaborar este producto. 
-
+#### Si requiere más información sobre el repositorio, puede consultar el siguiente enlace que lo llevara a la investigación efectuada para elaborar este producto. 
 
 
 ### Acknowledgments
