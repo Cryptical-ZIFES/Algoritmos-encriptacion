@@ -10,7 +10,7 @@ Es importante leer los requisitos mínimos completos y recomendados del sistema,
 
 Requisitos:
 ```
-- Sistema Operativos: Windows 10 o Windows 11 (x64)
+- Sistemas Operativos: Windows 10 o Windows 11 (x64)
 - RAM: 4GB+ (gigabytes)
 - Espacio libre en el disco duro: Minimo 10 GB
 ```
