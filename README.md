@@ -39,8 +39,8 @@ Aproximadamente pesa la instalación 9.89 GB, aunque se puede personalizar depen
 - Localizar el repositorio o carpeta descomprimida por medio de comandos en la terminal.
 - Acceder por medio de la terminal a la carpeta de encriptado o desencriptado dependiendo de su uso.
 - En la carpeta seleccionada, ejecutar el comando `run.bat`.
--Ingresar el nombre del archivo con su extensión.
--Ingresar la nueva contraseña para encriptar/contraseña para desencriptar.
+- Ingresar el nombre del archivo con su extensión.
+- Ingresar la nueva contraseña para encriptar/contraseña para desencriptar.
 - Esperar a que se genere el archivo.
 - Volver a ejecutar el programa o cerrar la terminal. 
 
