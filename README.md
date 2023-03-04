@@ -22,7 +22,7 @@ Estas instrucciones te ayudarán a obtener la copia del repositorio para su corr
 
 En caso de tener instalado Visual Studio, saltar los siguientes pasos:
 
-   - Descargar el instalador del programa [Visual Studio Community](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false).
+   - Descargar el instalador del programa [Visual Studio Community 2022](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false).
         
    - Abrir el instalador, en Cargas de trabajo, localizar y seleccionar el apartado de `Desarrollo para el escritorio con C++`, después ir a Componentes individuales, buscar y seleccionar el archivo `Windows # SDK` dependiendo del sistema operativo de la computadora. Ej. `Windows 10 SDK` `Windows 11 SDK`. 
    
@@ -103,9 +103,4 @@ Al ser un lenguaje compilado, permite una mayor eficiencia en cuestiones de memo
 
 #### Si requiere más información sobre el repositorio, puede consultar el siguiente enlace que lo llevara a la investigación efectuada para elaborar este producto. 
 
-
-### Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Esperamos que este repositorio les funcione demasiado para mejorar la seguridad de sus archivos. 😺👍 
