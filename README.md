@@ -18,19 +18,21 @@ Requisitos mínimos:
 
 Estas instrucciones te ayudarán a obtener la copia del repositorio para su correcta instalación.
 
-1. Descargar este repositorio por el método de clonar `Git (HTTPS)` o descargar como `.ZIP` para después extraerlo en la ubicación deseada.
+1. Descargar este repositorio por el método de clonar `"Git Clone"(HTTPS)` o descargar como `.ZIP` para después extraerlo en la ubicación deseada.
 
 En caso de tener instalado Visual Studio, saltar los siguientes pasos:
 
-   - Descargar el instalador del programa [Visual Studio Community](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false).
+   A) Descargar el instalador del programa [Visual Studio Community](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false).
         
-   - Abrir el instalador, en Cargas de trabajo, localizar `Desarrollo para el escritorio con C++`, después ir al apartado de Componentes individuales y buscar el siguiente archivo: `Windows 10 SDK` `Windows 11 SDK` (dependiendo del sistema operativo). Aproximadamente 9.89 GB.
+   B) Abrir el instalador, en Cargas de trabajo, localizar y seleccionar el apartado de `Desarrollo para el escritorio con C++`, después ir a Componentes individuales, buscar y seleccionar el archivo `Windows # SDK` dependiendo del sistema operativo de la computadora. Ej. `Windows 10 SDK` `Windows 11 SDK`. 
+   
+   Aproximadamente pesa la instalación 9.89 GB, aunque se puede personalizar dependiendo el uso específico de cada usuario, para así liberar peso.
 
 2. Descargar e instalar el archivo [rustup installer](https://rustup.rs/).
 3. Abrir Visual Studio y descargar la extensión `rust-analyzer`.
-4. Abrir la consola y checar la versión de Rust con el comando: `rustc --version` (En caso de que este desactualizado, con el comando `rustup update` puedes actualizarla).
+4. Abrir la consola y checar la versión de Rust con el comando: `rustc --version` (En caso de que este desactualizado, con el comando `rustup update` se puede actualizar).
 5. Reiniciar la computadora para guardar los cambios.
-6. Abrir el repositorio o carpeta del proyecto en Visual Studio, verificando si no hay un error a la hora del inicio automático del plug-in. En el caso de que aparezca el error `Error: Linker ‘Link.exe’ Not Found” in Rust` se deberá regresar al paso 1.2, ya sea para comprobar/reparar los archivos dañados o instalar los faltantes.
+6. Abrir el repositorio o carpeta del proyecto en Visual Studio, verificando si no hay un error a la hora del inicio automático del plug-in. En el caso de que aparezca el error `Linker ‘Link.exe’ Not Found” in Rust` se deberá regresar al paso B), ya sea para comprobar y reparar los archivos dañados o instalar los faltantes.
 
 ### ¿Cómo ejecutarlo?
 
@@ -91,6 +93,7 @@ Aparece el archivo desencriptado, la manera de diferenciarlos es por medio de la
 
 ## Built With
 
+Rust
 
 ## License
 
