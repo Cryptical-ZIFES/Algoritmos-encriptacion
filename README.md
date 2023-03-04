@@ -38,9 +38,8 @@ Aproximadamente pesa la instalación 9.89 GB, aunque se puede personalizar depen
 
 - Localizar el repositorio o carpeta descomprimida por medio de comandos en la terminal.
 - Acceder por medio de la terminal a la carpeta de encriptado o desencriptado dependiendo de su uso.
-- En la carpeta seleccionada, ejecutar el comando `cargo b`.
-- Ejecutar el comando `cargo run`.
--Ingresar el archivo con su extensión.
+- En la carpeta seleccionada, ejecutar el comando `run.bat`.
+-Ingresar el nombre del archivo con su extensión.
 -Ingresar la nueva contraseña para encriptar/contraseña para desencriptar.
 - Esperar a que se genere el archivo.
 - Volver a ejecutar el programa o cerrar la terminal. 
@@ -48,11 +47,11 @@ Aproximadamente pesa la instalación 9.89 GB, aunque se puede personalizar depen
 ### Ejemplo del funcionamiento del algoritmo de encriptado de un archivo:
 Consola CMD o Windows PowerShell:
 ```rust
-C:\Algoritmos-encriptacion\Encriptado>cargo b
+C:\Algoritmos-encriptacion\Encriptado>cargo b //run.bat
    Compiling codificado_1 v0.1.0 (C:\Algoritmos-encriptacion\Encriptado)
     Finished dev [unoptimized + debuginfo] target(s) in *s
     
-C:\Algoritmos-encriptacion\Encriptado>cargo run
+C:\Algoritmos-encriptacion\Encriptado>cargo run //run.bat
         Finished dev [unoptimized + debuginfo] target(s) in *s
              Running `target\debug\codificado_1.exe`
              
@@ -76,10 +75,10 @@ Aparece el archivo encriptado, la manera de diferenciarlos es por medio de la et
 ### Ejemplo del funcionamiento del algoritmo de desencriptado de un archivo:
 Consola CMD o Windows PowerShell:
 ```rust
-C:\Algoritmos-encriptacion\Desencriptado> cargo b
+C:\Algoritmos-encriptacion\Desencriptado> cargo b //run.bat
     Finished dev [unoptimized + debuginfo] target(s) in * s
 
-C:\Algoritmos-encriptacion\Desencriptado> cargo run
+C:\Algoritmos-encriptacion\Desencriptado> cargo run //run.bat
     Finished dev [unoptimized + debuginfo] target(s) in * s
      Running `target\debug\decodificado.exe`
      
