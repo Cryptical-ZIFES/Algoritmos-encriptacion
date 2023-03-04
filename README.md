@@ -10,13 +10,7 @@ Es importante leer los requisitos mínimos y recomendados del sistema, ya que de
 ```
 - Sistema Operativo Windows 10,11 (x64)
 - RAM: 4+ gigabytes (GB)
-- Espacio en disco duro: 
-        1. 0.0877 GB (Algoritmos de encriptado)
-        2. 1 GB (Visual Studio Code 2022)
-        3. 0.00953 GB (Instalador de Rust) + 0.2/0.3 GB (Rust)
-        4. 2.38 GB (Windows 10 SDK)
-        5. 5 GB (C++ build tools)
-        Total: 8.7677 GB sin utilizar mínimo
+- Espacio en disco duro: Minimo 10 GB libres
 ```
 ## Instalación:
 
@@ -26,18 +20,14 @@ Estas instrucciones te ayudarán a obtener la copia del repositorio y para su co
 
 En caso de tener instalado Visual Studio, saltar los siguientes pasos:
 
-        - Descargar el instalador del programa [Visual Studio Community](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
+        - Descargar el instalador del programa [Visual Studio Community](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false).
         
-        - Abrir el instalador, en Cargas de trabajo localizar `Desarrollo para el escritorio con C++`, después ir al apartado de Componentes individuales y buscar el siguiente archivo: `Windows 10 SDK` `Windows 11 SDK` (dependiendo del sistema operativo). Aproximadamente 9.89 GB
+        - Abrir el instalador, en Cargas de trabajo localizar `Desarrollo para el escritorio con C++`, después ir al apartado de Componentes individuales y buscar el siguiente archivo: `Windows 10 SDK` `Windows 11 SDK` (dependiendo del sistema operativo). Aproximadamente 9.89 GB.
 
 2. Descargar e instalar el archivo [rustup installer](https://rustup.rs/).
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+3. Abrir Visual Studio y descargar la extensión `rust-analyzer`.
+4. Abrir la consola y checar la versión de Rust con el comando: `rustc --version` (En caso de que este desactualizado, con el comando `rustup update` puedes actualizarla).
+5. Reiniciar la computadora para guardar los cambios.
 
 ### ¿Cómo ejecutarlo?
 
