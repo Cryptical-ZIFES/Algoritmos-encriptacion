@@ -22,9 +22,9 @@ Estas instrucciones te ayudarán a obtener la copia del repositorio para su corr
 
 En caso de tener instalado Visual Studio, saltar los siguientes pasos:
 
-   1.1 Descargar el instalador del programa [Visual Studio Community](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false).
+   - Descargar el instalador del programa [Visual Studio Community](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false).
         
-   1.2 Abrir el instalador, en Cargas de trabajo, localizar `Desarrollo para el escritorio con C++`, después ir al apartado de Componentes individuales y buscar el siguiente archivo: `Windows 10 SDK` `Windows 11 SDK` (dependiendo del sistema operativo). Aproximadamente 9.89 GB.
+   - Abrir el instalador, en Cargas de trabajo, localizar `Desarrollo para el escritorio con C++`, después ir al apartado de Componentes individuales y buscar el siguiente archivo: `Windows 10 SDK` `Windows 11 SDK` (dependiendo del sistema operativo). Aproximadamente 9.89 GB.
 
 2. Descargar e instalar el archivo [rustup installer](https://rustup.rs/).
 3. Abrir Visual Studio y descargar la extensión `rust-analyzer`.
