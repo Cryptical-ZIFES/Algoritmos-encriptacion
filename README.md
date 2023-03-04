@@ -39,7 +39,7 @@ En caso de tener instalado Visual Studio, saltar los siguientes pasos:
 - Localizar el repositorio o carpeta descomprimida por medio de comandos en la terminal.
 - 
 
-### Ejemplos del Algoritmo de Encriptado de un archivo:
+### Ejemplo del funcionamiento del algoritmo de encriptado de un archivo:
 Consola CMD o Windows PowerShell:
 ```rust
 C:\Algoritmos-encriptacion\Encriptado>cargo b
@@ -67,7 +67,7 @@ Codificación exitosa tiempo de codificación: * segundos
 ```
 Aparece el archivo encriptado, la manera de diferenciarlos es por medio de la etiqueta `Crzipfes_` al principio del nombre del archivo.
 
-### Ejemplos del Algoritmo de Desencriptado de un archivo:
+### Ejemplo del funcionamiento del algoritmo de desencriptado de un archivo:
 Consola CMD o Windows PowerShell:
 ```rust
 C:\Algoritmos-encriptacion\Desencriptado> cargo b
@@ -90,8 +90,6 @@ Se coloca manualmente la contraseña para desencriptar.
 Desencriptado exitoso tiempo de desencriptado: * segundos
 ```
 Aparece el archivo desencriptado, la manera de diferenciarlos es por medio de la etiqueta Crzipfes_ , ya que el nuevo archivo regresa a su nombre original.
-
-```
 
 ## Built With
 
