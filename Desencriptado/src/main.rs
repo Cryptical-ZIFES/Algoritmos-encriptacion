@@ -9,8 +9,8 @@ fn main() {
     //se lee el nombre del archivo que el usuario desea desencriptar
     
     let mut nombre_archivo_a_desencriptar=String::new();
-    println!("Hola usuario que archivo quieres desencriptar");
-    stdin().read_line(&mut nombre_archivo_a_desencriptar).expect("Error al leer la contrasena");
+    println!("¡Hola usuario! ¿Qué archivo quieres desencriptar? (Introduce nombre junto con extensión)");
+    stdin().read_line(&mut nombre_archivo_a_desencriptar).expect("Error al leer la contraseña");
     nombre_archivo_a_desencriptar.pop();
     nombre_archivo_a_desencriptar.pop();
     
@@ -49,7 +49,7 @@ fn main() {
 
                 }
                 Err(_error)=>{
-                    panic!("Hubo un error al leer tu contrasena ):");
+                    panic!("Hubo un error al leer tu contraseña ):");
                 }
             }
             contrasena_usuario.pop();
@@ -109,11 +109,11 @@ fn main() {
                     }
                     //Se escribe el dato ya desencriptaado en el aarchivo nuevo
                     let guardar= mem::transmute::<u16, [u8;2]>(nuevo_dato);
-                    archivo_desencriptado.seek_write(&guardar[0].to_be_bytes(), indice_de_bytes).expect("Error durante l escritura del nuevo archivo {}");
+                    archivo_desencriptado.seek_write(&guardar[0].to_be_bytes(), indice_de_bytes).expect("Error durante la escritura del nuevo archivo {}");
                     indice_de_bytes+=1;
                 }
             }
-            println!("Desencriptado exitoso tiempo de desencriptado: {} segundos", tiempo.elapsed().as_nanos());
+            println!("Desencriptado exitoso. Tiempo de desencriptado: {} nanosegundos", tiempo.elapsed().as_nanos());
         }
     }
 }

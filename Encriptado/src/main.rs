@@ -7,7 +7,7 @@ use std::time::Instant;
 fn main() {
     //Lectura del archivo
     let mut archivo_nombre=String::new();
-    println!("Hola usuario introduce el archivo que deseas codificar");
+    println!("¡Hola usuario! Introduce el archivo que deseas codificar (nombre junto con su extensión)");
     stdin().read_line(&mut archivo_nombre ).expect("Error al leer el nombre del archivo a encriptar");
     archivo_nombre.pop();
     archivo_nombre.pop();
@@ -91,12 +91,12 @@ fn main() {
 
                     }
                     Err(pq)=>{
-                        print!("Error durante la escritura de archivos debdio a{}", pq);
+                        print!("Error durante la escritura de archivos debido a {}", pq);
                     }
                 }
                 indice+=2;
             }
-            println!("Codificación exitosa tiempo de codificación: {} segundos", tiemp.elapsed().as_nanos());
+            println!("Codificación exitosa. Tiempo de codificación: {} nanosegundos", tiemp.elapsed().as_nanos());
         }
         Err(_a)=>{
             print!("Error al cargar el archivo");
