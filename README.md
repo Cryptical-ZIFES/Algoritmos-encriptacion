@@ -26,7 +26,7 @@ En caso de tener instalado Visual Studio, saltar los siguientes pasos:
         
    B) Abrir el instalador, en Cargas de trabajo, localizar y seleccionar el apartado de `Desarrollo para el escritorio con C++`, después ir a Componentes individuales, buscar y seleccionar el archivo `Windows # SDK` dependiendo del sistema operativo de la computadora. Ej. `Windows 10 SDK` `Windows 11 SDK`. 
    
-   Aproximadamente pesa la instalación 9.89 GB, aunque se puede personalizar dependiendo el uso específico de cada usuario, para así liberar peso.
+      Aproximadamente pesa la instalación 9.89 GB, aunque se puede personalizar dependiendo el uso específico de cada usuario, para así liberar peso.
 
 2. Descargar e instalar el archivo [rustup installer](https://rustup.rs/).
 3. Abrir Visual Studio y descargar la extensión `rust-analyzer`.
